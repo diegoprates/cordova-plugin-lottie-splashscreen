@@ -211,7 +211,7 @@ class LottieSplashScreen : CordovaPlugin() {
             preferences.getString(
                 "LottieScaleType",
                 "FIT_CENTER"
-            ).uppercase(Locale.ENGLISH)
+            )
         )
 
         val color = ColorHelper.parseColor(
